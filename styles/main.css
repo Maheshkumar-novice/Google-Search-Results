@@ -199,7 +199,7 @@ main .results {
 }
 main .result-stat {
   height: 43px;
-  width: 100%;
+  /* width: 100%; */
 
   color: #70757a;
 
@@ -303,6 +303,8 @@ main .result-2 {
 
   border: 1px solid #dfe1e5;
   border-radius: 8px;
+
+  margin-bottom: 65px;
 }
 
 main .result-2 div {
@@ -357,4 +359,83 @@ main .result-2 cite a {
 
 main .result-2 cite a:hover {
   text-decoration: underline;
+}
+
+/* results - 36 */
+main .results-36 .date {
+  color: #70757a;
+}
+
+main .results-36 .ext {
+  color: #5f6368;
+}
+
+main .results-36 .review {
+  color: #70757a;
+}
+
+main .results-36 .fa-caret-down {
+  color: #4d5156;
+
+  margin: 0px 0px 1px 5px;
+}
+
+main .result-3,
+main .result-4,
+main .result-5,
+main .result-6 {
+  margin: 0px 0px 40px 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+main .result-3 cite,
+main .result-4 cite,
+main .result-5 cite,
+main .result-6 cite {
+  display: block;
+
+  font-style: normal;
+  font-size: 14px;
+
+  color: #202124;
+}
+
+main .result-3 a,
+main .result-4 a,
+main .result-5 a,
+main .result-6 a {
+  font-size: 20px;
+
+  color: #1a0dab;
+
+  text-decoration: none;
+}
+
+main .result-3 a:hover,
+main .result-4 a:hover,
+main .result-5 a:hover,
+main .result-6 a:hover {
+  text-decoration: underline;
+}
+
+main .result-3 strong,
+main .result-4 strong,
+main .result-5 strong,
+main .result-6 strong {
+  color: #5f6368;
+}
+
+main .result-3 p,
+main .result-4 p,
+main .result-5 p,
+main .result-6 p {
+  color: #4d5156;
+
+  font-size: 14px;
+
+  line-height: 1.6;
 }
