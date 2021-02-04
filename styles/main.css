@@ -18,7 +18,7 @@ img {
 
 /* header */
 header {
-  min-width: 100vw;
+  /* min-width: 100vw; */
   height: 130px;
 
   display: grid;
@@ -29,7 +29,7 @@ header .nav-1 {
   width: 100%;
 
   display: grid;
-  grid-template-columns: 120px auto auto;
+  grid-template-columns: 120px 800px auto;
   justify-items: center;
   align-items: center;
 }
@@ -361,20 +361,28 @@ main .result-2 cite a:hover {
   text-decoration: underline;
 }
 
-/* results - 36 */
-main .results-36 .date {
+main .result-2 .r2d1,
+main .result-2 .r2d2,
+main .result-2 .r2d3,
+main .result-2 .r2d4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* results - 37 */
+main .results-37 .date {
   color: #70757a;
 }
 
-main .results-36 .ext {
+main .results-37 .ext {
   color: #5f6368;
 }
 
-main .results-36 .review {
+main .results-37 .review {
   color: #70757a;
 }
 
-main .results-36 .fa-caret-down {
+main .results-37 .fa-caret-down {
   color: #4d5156;
 
   margin: 0px 0px 1px 5px;
@@ -383,7 +391,8 @@ main .results-36 .fa-caret-down {
 main .result-3,
 main .result-4,
 main .result-5,
-main .result-6 {
+main .result-6,
+main .result-7 {
   margin: 0px 0px 40px 0px;
 
   display: flex;
@@ -395,7 +404,8 @@ main .result-6 {
 main .result-3 cite,
 main .result-4 cite,
 main .result-5 cite,
-main .result-6 cite {
+main .result-6 cite,
+main .result-7 cite {
   display: block;
 
   font-style: normal;
@@ -407,7 +417,8 @@ main .result-6 cite {
 main .result-3 a,
 main .result-4 a,
 main .result-5 a,
-main .result-6 a {
+main .result-6 a,
+main .result-7 a {
   font-size: 20px;
 
   color: #1a0dab;
@@ -418,24 +429,55 @@ main .result-6 a {
 main .result-3 a:hover,
 main .result-4 a:hover,
 main .result-5 a:hover,
-main .result-6 a:hover {
+main .result-6 a:hover,
+main .result-7 a:hover {
   text-decoration: underline;
 }
 
 main .result-3 strong,
 main .result-4 strong,
 main .result-5 strong,
-main .result-6 strong {
+main .result-6 strong,
+main .result-7 strong {
   color: #5f6368;
 }
 
 main .result-3 p,
 main .result-4 p,
 main .result-5 p,
-main .result-6 p {
+main .result-6 p,
+main .result-7 p {
   color: #4d5156;
 
   font-size: 14px;
 
   line-height: 1.6;
+}
+
+main .review .star {
+  position: relative;
+
+  height: 13px;
+  top: 1px;
+
+  background-size: 13px 12px;
+  background-repeat: repeat-x;
+}
+
+main .review .star-1 {
+  width: 65px;
+
+  background-image: url(/images/png-jpeg/star-grey.png);
+
+  display: inline-block;
+}
+
+main .review .star-2 {
+  top: 0px;
+
+  width: 59px;
+
+  background-image: url(/images/png-jpeg/star-yellow.png);
+
+  display: block;
 }
