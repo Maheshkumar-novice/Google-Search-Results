@@ -365,6 +365,8 @@ main .result-2 .r2d1,
 main .result-2 .r2d2,
 main .result-2 .r2d3,
 main .result-2 .r2d4 {
+  font-size: 16px;
+
   display: flex;
   justify-content: space-between;
 }
