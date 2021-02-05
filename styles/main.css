@@ -562,7 +562,7 @@ main .result-8 .vid iframe {
 }
 
 main .result-8 .view-all {
-  margin: 5px;
+  margin: 5px 0px;
   padding: 5px;
 
   display: flex;
