@@ -483,3 +483,95 @@ main .review .star-2 {
 
   display: block;
 }
+
+/* result - 8 */
+
+main .result-8 .r8head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+
+  margin: 15px 0px;
+}
+
+main .result-8 .r8content {
+  border: 1px solid #dfe1e5;
+  border-radius: 8px;
+}
+
+main .result-8 .r8c1,
+main .result-8 .r8c2,
+main .result-8 .r8c3 {
+  display: grid;
+  grid-template-columns: 200px auto;
+  justify-items: start;
+  align-items: center;
+
+  font-size: 14px;
+
+  height: 100px;
+
+  padding-left: 10px;
+
+  border-bottom: 1px solid #dfe1e5;
+}
+
+main .result-8 .r8c3 {
+  border: none;
+}
+
+main .result-8 a {
+  display: block;
+
+  font-size: 18px;
+
+  text-decoration: none;
+}
+
+main .result-8 a:hover {
+  text-decoration: underline;
+}
+
+main .result-8 .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 5px;
+
+  font-size: 13px;
+}
+
+main .result-8 .desc .meta cite {
+  font-style: normal;
+
+  line-height: 1.5;
+}
+
+main .result-8 .desc .meta .date {
+  color: #70757a;
+}
+
+main .result-8 .vid iframe {
+  width: 180px;
+  height: 80px;
+
+  border-radius: 8px;
+}
+
+main .result-8 .view-all {
+  margin: 5px;
+  padding: 5px;
+
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #dfe1e5;
+  border-radius: 8px;
+
+  color: #1a0dab;
+}
