@@ -678,3 +678,34 @@ main .result-8 .view-all {
 
   cursor: pointer;
 }
+
+/* related */
+.related {
+  margin-top: 40px;
+}
+.related .head {
+  font-size: 20px;
+
+  line-height: 3;
+}
+
+.related .list {
+  display: flex;
+  gap: 100px;
+}
+
+.related a {
+  font-size: 14px;
+
+  color: #1a0dab;
+
+  text-decoration: none;
+
+  display: block;
+
+  line-height: 2;
+}
+
+.related a:hover {
+  text-decoration: underline;
+}
