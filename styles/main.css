@@ -846,6 +846,8 @@ main .card .website a {
   text-decoration: none;
 
   color: #1a0dab;
+
+  font-size: 14px;
 }
 
 main .card .website a:hover {
