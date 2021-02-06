@@ -721,7 +721,6 @@ main .result-8 .view-all {
 
   display: flex;
   justify-content: center;
-  gap: 2px;
 }
 .pages .links a {
   height: 56px;
@@ -752,7 +751,7 @@ main .result-8 .view-all {
 }
 
 .pages .links a img {
-  width: 20px;
+  width: 18px;
   height: 40px;
 }
 
