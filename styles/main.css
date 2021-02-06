@@ -22,14 +22,13 @@ header {
   height: 130px;
 
   display: grid;
-  grid-template-rows: 75px 55px;
 }
 /* nav-1 */
 header .nav-1 {
   width: 100%;
 
   display: grid;
-  grid-template-columns: 120px 800px auto;
+  grid-template-columns: 120px 800px 50vw;
   justify-items: center;
   align-items: center;
 }
@@ -125,7 +124,7 @@ header .nav-1 .data img:nth-child(2) {
   color: #5f6368;
 
   display: grid;
-  grid-template-columns: 120px 745px auto;
+  grid-template-columns: 120px 745px 50vw;
   justify-items: center;
   align-items: end;
 
@@ -190,7 +189,7 @@ main {
   font-family: Arial, Helvetica, sans-serif;
 
   display: grid;
-  grid-template-columns: 155px 705px auto;
+  grid-template-columns: 155px 705px 50vw;
 }
 
 /* results */
@@ -204,6 +203,8 @@ main .result-stat {
   color: #70757a;
 
   font-size: 14px;
+
+  margin-top: 10px;
 }
 
 /* result - 1 */
@@ -770,4 +771,394 @@ main .result-8 .view-all {
 .pages img {
   width: 28px;
   height: 40px;
+}
+
+/* main-card */
+main .card {
+  width: 445px;
+  height: 550px;
+
+  margin: 40px 50px;
+  margin-bottom: 0px;
+
+  border: 1px solid #dfe1e5;
+  border-radius: 8px;
+}
+
+main .card .title {
+  padding: 10px;
+
+  border-bottom: 1px solid #dfe1e5;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .card .title .name h2 {
+  font-size: 30px;
+
+  font-weight: normal;
+
+  color: #202124;
+}
+
+main .card .title .name span {
+  font-size: 14px;
+
+  color: #70757a;
+}
+
+main .card .title .logo {
+  width: 150px;
+  height: 85px;
+}
+
+main .card .title .logo img {
+  width: 150px;
+  height: 85px;
+}
+
+main .card .title .share {
+  margin-top: 20px;
+  margin-left: 10px;
+
+  align-self: flex-start;
+
+  cursor: pointer;
+}
+
+main .card .website {
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 30px;
+
+  border-bottom: 1px solid #dfe1e5;
+}
+
+main .card .website a {
+  flex: 1;
+
+  text-decoration: none;
+
+  color: #1a0dab;
+}
+
+main .card .website a:hover {
+  text-decoration: underline;
+}
+
+main .card .info {
+  padding: 10px;
+}
+
+main .card .info .found a,
+main .card .info .parent a {
+  color: #202124;
+
+  font-weight: bolder;
+
+  font-size: 14px;
+
+  text-decoration: none;
+
+  line-height: 2;
+}
+
+main .card .info .parent a:nth-child(2) {
+  font-weight: normal;
+
+  color: #1a0dab;
+}
+
+main .card .info a:hover {
+  text-decoration: underline;
+}
+
+main .card .disclaimer {
+  font-size: 12px;
+
+  padding: 5px;
+  padding-right: 15px;
+
+  display: flex;
+  justify-content: flex-end;
+
+  font-style: italic;
+}
+
+main .card .disclaimer a {
+  text-decoration: none;
+
+  color: #70757a;
+}
+
+main .profiles {
+  padding: 10px;
+}
+
+main .profiles .prof-title {
+  font-size: 20px;
+
+  margin: 10px 0px;
+
+  color: #202124;
+}
+
+main .profiles .accounts {
+  margin-left: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+main .profiles .accounts .twitter a,
+main .profiles .accounts .facebook a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  text-decoration: none;
+
+  color: #1a0dab;
+
+  font-size: 14px;
+}
+
+main .profiles .accounts .twitter a:hover,
+main .profiles .accounts .facebook a:hover {
+  text-decoration: underline;
+}
+
+main .profiles .accounts a img {
+  border-radius: 8px;
+
+  height: 32px;
+  width: 32px;
+}
+
+main .also {
+  padding: 10px;
+}
+
+main .also .also-title {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 20px;
+}
+
+main .also .also-title a {
+  text-decoration: none;
+
+  color: #202124;
+}
+
+main .also .also-title a.view {
+  color: #70757a;
+
+  font-size: 14px;
+
+  margin-top: 8px;
+}
+
+main .also .also-title a:hover {
+  text-decoration: underline;
+}
+
+main .also .img-link {
+  margin: 20px 0px;
+}
+
+main .also .img-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+main .also .img-link a {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  font-size: 14px;
+  text-decoration: none;
+
+  color: #1a0dab;
+}
+
+main .also .img-link a:hover {
+  text-decoration: underline;
+}
+
+main .also .img-link a .also-img {
+  width: 72px;
+  height: 72px;
+
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+main .also .img-link a .dummy {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.03);
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  border-radius: 8px;
+}
+main .also .img-link a .also-img img {
+  width: 100%;
+  height: auto;
+
+  border-radius: 8px;
+}
+
+main .others {
+  width: 440px;
+
+  margin: 4px 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .others .claim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+
+  padding: 10px;
+}
+
+main .others a {
+  text-decoration: none;
+}
+
+main .others .claim img {
+  width: 16px;
+  height: 16px;
+}
+
+main .others .claim span {
+  font-size: 14px;
+
+  color: #3c4043;
+}
+
+main .others .feedback {
+  align-self: flex-start;
+}
+
+main .others .feedback a {
+  color: #70757a;
+
+  font-size: 12px;
+}
+
+/* footer */
+footer {
+  background-color: #f2f2f2;
+  color: rgba(0, 0, 0, 0.54);
+
+  /* min-height: 8vh; */
+
+  font-size: 15px;
+
+  border-top: 1px solid #dadce0;
+
+  line-height: 1.5;
+
+  margin: 30px 0px;
+  margin-bottom: 0px;
+
+  padding: 0px 10px;
+}
+
+footer li {
+  display: inline;
+
+  list-style: none;
+
+  padding-right: 20px;
+
+  cursor: pointer;
+}
+
+footer li:hover,
+footer li:active {
+  text-decoration: underline;
+}
+
+footer .location {
+  height: 40px;
+
+  padding: 5px 0px;
+  padding-left: 155px;
+
+  border-bottom: 1px solid #dadce0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+footer .location .main {
+  padding-right: 10px;
+  border-right: 1px solid #dadce0;
+}
+
+footer .location .other .dot {
+  height: 10px;
+  width: 10px;
+
+  border-radius: 100%;
+
+  display: inline-block;
+
+  vertical-align: middle;
+
+  color: #70757a;
+  background-color: #70757a;
+
+  font-size: 14px;
+
+  visibility: visible;
+}
+
+footer .location .other strong {
+  color: #3c4043;
+}
+
+footer .options {
+  min-height: 40px;
+
+  padding: 0 155px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
