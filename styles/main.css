@@ -589,3 +589,92 @@ main .result-8 .view-all {
 
   color: #1a0dab;
 }
+
+/* result-qa */
+.result-qa {
+  margin-top: 30px;
+}
+
+.result-qa .rqahead {
+  font-size: 20px;
+  line-height: 3;
+}
+
+.result-qa .rqa {
+  border: 1px solid #dfe1e5;
+  border-radius: 8px;
+}
+.result-qa .rqa .q {
+  padding: 15px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #dfe1e5;
+}
+.result-qa .rqa .q .textq .q1 {
+  font-size: 16px;
+
+  line-height: 1.5;
+
+  color: #3c4043;
+}
+
+.result-qa .rqa .q .textq .q2 {
+  font-size: 12px;
+
+  line-height: 1.5;
+
+  color: #70757a;
+}
+
+.result-qa .rqa .q .arrow .qimg {
+  height: 16px;
+  width: 16px;
+}
+.result-qa .rqa .q .arrow {
+  border: 1px solid #dfe1e5;
+  border-radius: 50%;
+
+  height: 32px;
+  width: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.result-qa .rqa .a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  padding: 15px 20px;
+}
+
+.result-qa .rqa .a .aimg {
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.result-qa .rqa .a input {
+  height: 40px;
+
+  outline: none;
+  border: none;
+
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+
+  font-size: 12px;
+
+  flex: 1;
+
+  padding: 10px;
+
+  cursor: pointer;
+}
