@@ -778,10 +778,11 @@ main .result-8 .view-all {
 
 /* main-card */
 main .card {
-  max-width: 445px;
-  max-height: 650px;
+  max-width: 420px;
+  max-height: 750px;
+  /* width: 400px; */
 
-  margin: 40px 0px;
+  margin: 40px 5px;
   margin-bottom: 0px;
 
   border: 1px solid #dfe1e5;
@@ -840,7 +841,7 @@ main .card .website {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  /* flex-wrap: wrap; */
   gap: 20px;
 
   border-bottom: 1px solid #dfe1e5;
@@ -1043,9 +1044,10 @@ main .also .img-link a .also-img img {
 }
 
 main .others {
-  max-width: 440px;
+  max-width: 420px;
+  /* width: 400px; */
 
-  margin: 4px 0px;
+  margin: 4px 5px;
 
   display: flex;
   justify-content: space-between;
@@ -1188,4 +1190,12 @@ footer .options {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+/* media queries */
+@media (max-width: 600px) {
+  main .card,
+  main .others {
+    display: none;
+  }
 }
