@@ -866,6 +866,10 @@ main .card .website a:hover {
   text-decoration: underline;
 }
 
+main .card .info span {
+  font-size: 14px;
+}
+
 main .card .info {
   padding: 10px;
 }
